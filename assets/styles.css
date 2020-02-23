@@ -88,7 +88,7 @@ main {
     padding-left: 16px;
     padding-right: 16px;
     margin-bottom: 24px;
-    margin-top: 24px;
+    margin-top: 16px;
 }
 
 a {
@@ -140,25 +140,34 @@ a:hover {
     text-decoration: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 650px) {
     .emphasis {
         margin-left: auto;
-        margin-top: 0;
+        margin-top: 24px;
     }
 }
 
 .intro {
-    font-size: 22px;
     margin: auto;
     font-weight: 300;
 }
 
+@media (max-width: 650px) {
+    .intro {
+        margin-top: 24px;
+    }
+}
+
 @media (min-width: 650px) {
+    .intro {
+        font-size: 22px;
+    }
+
+
     .two-col {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 80px;
-        margin-top: 80px;
     }
 
     .multi-col-two-col {
@@ -185,12 +194,19 @@ a:hover {
 .four-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    gap: 16px;
 }
+
+@media (min-width: 650px) {
+    .four-images {
+        gap: 24px;
+    }
+}
+
 
 @media (max-width: 650px) {
     .four-images {
-        margin-top: 24px;
+        margin-top: 16px;
     }
 }
 
@@ -215,14 +231,31 @@ a:hover {
 }
 
 .mt-80 {
-    margin-top: 80px;
+    margin-top: 48px;
 }
+@media (min-width: 650px) {
+    .mt-80 {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 650px) {
+    .hide-on-desktop {
+        display: none !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
+
 
 .bg-purple {
     border: solid 24px var(--off-white);
     background-color: var(--purple);
     min-height: 100vh;
-    margin-top: 80px;
     display: grid;
     grid-template-columns: max-content max-content;
     gap: 16px;
@@ -291,10 +324,6 @@ a:hover {
     text-decoration: none;
 }
 
-.writing a {
-    font-size: 16px;
-}
-
 .case-studies a {
     font-size: 18px;
 }
@@ -307,4 +336,10 @@ a:hover {
     font-weight: 900;
     letter-spacing: -0.7px;
     font-feature-settings: 'wght' 900;
+}
+
+@media (max-width: 650px) {
+    .top-of-page {
+        margin-top: 0px !important;
+    }
 }
