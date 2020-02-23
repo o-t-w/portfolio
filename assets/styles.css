@@ -64,37 +64,6 @@ ul {
     list-style-type: none;
 }
 
-/* li::marker {
-    font-size: 14px;
-    color: #77788e;
-}
-
-ol li:first-child::marker {
-    content: "➀";
-}
-
-ol li:nth-child(2)::marker {
-    content: "➁";
-}
-
-ol li:nth-child(3)::marker {
-    content: "➂";
-}
-
-ol li:nth-child(4)::marker {
-    content: "➃";
-}
-
-ol li:nth-child(5)::marker {
-    content: "➄";
-} 
-
-
-li a {
-    margin-left: 8px;
-}
-*/
-
 li {
     margin-top: 8px;
 }
@@ -197,7 +166,7 @@ a:hover {
         column-gap: 24px;
     }
 
-    .multi-col-two-col ul:first-child{
+    .writing ul li:first-child{
         margin-top: 0;
     }
 }
@@ -216,8 +185,13 @@ a:hover {
 .four-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px;
     gap: 24px;
+}
+
+@media (max-width: 650px) {
+    .four-images {
+        margin-top: 24px;
+    }
 }
 
 .four-images img {
@@ -246,6 +220,7 @@ a:hover {
 }
 
 .bg-purple {
+    border: solid 24px var(--off-white);
     background-color: var(--purple);
     min-height: 100vh;
     margin-top: 80px;
@@ -271,8 +246,14 @@ a:hover {
 
 .featured-articles {
     display: grid;
-    gap: 40px;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+@media (min-width: 650px) {
+    .featured-articles {
+        gap: 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 .featured-articles h3 {
@@ -317,4 +298,14 @@ a:hover {
 
 .case-studies a {
     font-size: 18px;
+}
+
+.handwritten {
+    font-size: 23px;
+    font-family: 'Gaegu';
+    color: white;
+    grid-column: span 2;
+    font-weight: 900;
+    letter-spacing: -0.7px;
+    font-feature-settings: 'wght' 900;
 }
