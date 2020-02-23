@@ -64,8 +64,8 @@ ul {
     list-style-type: none;
 }
 
-li {
-    margin-top: 8px;
+li + li {
+    margin-top: 12px;
 }
 
 iframe {
@@ -172,7 +172,7 @@ a:hover {
 
     .multi-col-two-col {
         column-count: 2;
-        column-gap: 24px;
+        column-gap: 40px;
     }
 
     .writing ul li:first-child{
@@ -278,7 +278,7 @@ a:hover {
 
 .featured-articles {
     display: grid;
-    gap: 24px;
+    gap: 16px;
 }
 
 @media (min-width: 650px) {
