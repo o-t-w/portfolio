@@ -1,0 +1,54 @@
+[
+    {
+        "title": "A Business Case for Dropping Internet Explorer",
+        "url": "https://css-tricks.com/a-business-case-for-dropping-internet-explorer/"
+    },
+    {
+        "title": "Creating a browser support policy",
+        "url": "https://www.giffgaff.io/technology/browser-support-policy/"
+    },
+    {
+        "title": "What I Like About Writing Styles with Svelte",
+        "url": "https://css-tricks.com/what-i-like-about-writing-styles-with-svelte/"
+    },
+    {
+        "title": "Styling Links with Real Underlines",
+        "url": "https://css-tricks.com/styling-links-with-real-underlines/"
+    },
+    {
+        "title": "Edge Goes Chromium: What Does it Mean for Front-End Developers?",
+        "url": "https://css-tricks.com/edge-goes-chromium-what-does-it-mean-for-front-end-developers/"
+    },
+    {
+        "title": "The Fragmented, But Evolving State of CSS-in-JS",
+        "url": "https://css-tricks.com/the-fragmented-but-evolving-state-of-css-in-js/"
+    },
+    {
+        "title": "It All Started With Emoji: Color Typography on the Web",
+        "url": "https://css-tricks.com/it-all-started-with-emoji-color-typography-on-the-web/"
+    },
+    {
+        "title": "The Holy Grail Of Reusable Components: Custom Elements, Shadow DOM, And NPM",
+        "url": "https://www.smashingmagazine.com/2018/07/reusable-components-custom-elements-shadow-dom-npm/"
+    },
+    {
+        "title": "On the Growing Popularity of Atomic CSS",
+        "url": "https://css-tricks.com/growing-popularity-atomic-css/"
+    },
+    {
+        "title": "(Now More Than Ever) You Might Not Need jQuery",
+        "url": "https://css-tricks.com/now-ever-might-not-need-jquery/"
+    },
+    {
+        "title": "CSS Animations vs Web Animations API",
+        "url": "https://css-tricks.com/css-animations-vs-web-animations-api/"
+    },
+    {
+        "title": "A Guide to Cross-Browser Polyfills",
+        "url": "https://www.sitepoint.com/html5-cross-browser-polyfills/"
+    },
+    {
+        "title": "Slanted CSS for a more intriguing looking page",
+        "url": "https://codepen.io/cssgrid/post/slanted-css-3-methods-for-a-more-interesting-look"
+    }
+]
