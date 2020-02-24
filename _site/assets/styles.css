@@ -36,6 +36,7 @@ figcaption {
     font-size: 14px;
     font-variation-settings: "wght" 800;
     font-weight: 800;
+    margin-top: 4px;
 }
 
 body {
