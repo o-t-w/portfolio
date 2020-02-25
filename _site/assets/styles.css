@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'inter';
-    src: url('Inter.var.woff2');
+    src: url('Inter.var.woff2-variations');
 }
 
 html {
@@ -34,7 +34,6 @@ figure + figure {
 
 figcaption {
     font-size: 14px;
-    font-variation-settings: "wght" 800;
     font-weight: 800;
     margin-top: 4px;
 }
@@ -162,6 +161,7 @@ a:hover {
 @media (min-width: 650px) {
     .intro {
         font-size: 22px;
+        text-align: justify;
     }
 
 
@@ -182,7 +182,6 @@ a:hover {
 }
 
 .bold {
-    font-variation-settings: "wght" 700;
     font-weight: 700;
 }
 
@@ -290,7 +289,6 @@ a:hover {
 }
 
 .featured-articles h3 {
-    font-variation-settings: "wght" 400;
     font-weight: 400;
     font-size: 18px;
     margin-top: 4px;
@@ -314,7 +312,6 @@ a:hover {
 
 .featured-articles p {
     font-size: 14px;
-    font-variation-settings: "wght" 800;
     font-weight: 800;
     color: #4a4a4a;
     margin-top: 8px;
@@ -336,7 +333,6 @@ a:hover {
     grid-column: span 2;
     font-weight: 900;
     letter-spacing: -0.7px;
-    font-feature-settings: 'wght' 900;
 }
 
 @media (max-width: 650px) {
@@ -360,4 +356,5 @@ a:hover {
     font-size: 40px;
     transform: rotate(-45deg);
     letter-spacing: 1px;
+    font-weight: 900;
 }
