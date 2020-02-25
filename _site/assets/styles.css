@@ -344,3 +344,20 @@ a:hover {
         margin-top: 0px !important;
     }
 }
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5651ff;
+    color: white;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.portfolio__text {
+    text-align: center;
+    font-size: 40px;
+    transform: rotate(-45deg);
+    letter-spacing: 1px;
+}
