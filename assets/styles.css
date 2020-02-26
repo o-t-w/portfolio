@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'inter';
-    src: url('Inter.var.woff2-variations');
-}
-
 html {
     --purple: #5651FF;
     --dark-purple: #4B46D9;
