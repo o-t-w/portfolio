@@ -17,7 +17,7 @@ I explored further possibilities using Figma. I then presented these design opti
 
 </div>
 <div>
-<figure>
+<figure style="width: 66%; margin: auto;">
 <img src="/assets/phone-first-iteration.png"/>
   <figcaption>Designed in Firefox devtools</figcaption>
 </figure></div>
