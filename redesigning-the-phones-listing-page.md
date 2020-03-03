@@ -3,7 +3,7 @@ title: Redesigning the phones listing page
 layout: layout.njk
 ---
 
-<div style="grid-column-gap: 40px; margin-top: 40px;" class="two-col">
+<div style="margin-top: 40px;" class="two-col">
 <div>
 The goal of this project was to bring the phone listing pages into line with the current giffgaff visual standards and to improve the visual hierarchy to make the page more easily scannable. 
 I did some initial visual exploration editing the currently live page using browser devtools. 

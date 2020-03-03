@@ -3,7 +3,7 @@ title: Building a design system at giffgaff
 layout: layout.njk
 ---
 
-<div style="grid-column-gap: 40px; margin-top: 40px" class="two-col">
+<div style="margin-top: 40px" class="two-col">
 <div>
 giffgaff has product designers and developers spread over many cross-functional teams. The design system enables UX and UI designers to align on common visual standards and quickly put together designs for new screens and pages. giffgaff is a company with many backend-focused 'fullstack developers'. I plugged the gap by building accessible UI components with HTML5,CSS and JavaScript.
 
