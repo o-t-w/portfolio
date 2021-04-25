@@ -416,6 +416,7 @@ border: 0;
     padding: 16px 24px;
     text-decoration: none;
     display: block;
+    box-shadow: #5651ff1c 6px 6px 0px;
 }
 
 .case-studies div div {
