@@ -12,6 +12,8 @@ Multiple ideas were explored in Figma. After several iterations and feedback fro
 
 
 <div class='two-col' style='margin-top: 40px;'> 
+<!-- <img loading='lazy' src='/assets/phones-original.png' alt='a screenshot of the phones range page showing a variety of phone models in a grid' /> -->
+
 <img loading='lazy' src='/assets/phones.png' alt='a screenshot of the phones range page showing a variety of phone models in a grid' />
 
 <img loading='lazy' src='/assets/phones2.jpg' alt='a screenshot of a differnt iteration of the phones range page design showing a variety of phone models in a grid' />

@@ -86,6 +86,13 @@ main {
     margin-top: 16px;
 }
 
+@media(min-width: 900px) {
+    main {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
 a {
     color: var(--purple);
     text-decoration-color: #5651FF52;
