@@ -166,6 +166,11 @@ a:hover {
         column-gap: 80px;
     }
 
+    .grid-3-4 {
+        grid-template-columns: 3fr 4fr;
+    }
+    
+
     .multi-col-two-col {
         column-count: 2;
         column-gap: 40px;
@@ -353,3 +358,4 @@ a:hover {
     letter-spacing: 1px;
     font-weight: 900;
 }
+
