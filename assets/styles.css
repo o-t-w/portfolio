@@ -167,6 +167,8 @@ a:hover {
     }
 
     .grid-3-4 {
+        display: grid;
+        column-gap: 80px;
         grid-template-columns: 3fr 4fr;
     }
     
