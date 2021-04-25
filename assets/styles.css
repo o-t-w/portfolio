@@ -162,7 +162,7 @@ a:hover {
 
 hr {
 height: 3px;
-background-color: black;
+background-color: var(--off-black);
 margin-top: 16px;
 margin-bottom: 16px;
 border: 0;
