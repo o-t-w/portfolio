@@ -3,27 +3,13 @@ title: Building a design system at giffgaff
 layout: layout.njk
 ---
 
-<div style="margin-top: 40px" class="two-col">
+<div style="margin-top: 40px" class="grid-600-1">
 <div>
-giffgaff has product designers and developers spread over many cross-functional teams. The design system enables UX and UI designers to align on common visual standards and quickly put together designs for new screens and pages. giffgaff is a company with many backend-focused 'fullstack developers'. I plugged the gap by building accessible UI components with HTML5, CSS and JavaScript.
+At giffgaff product designers and developers are spread over many cross-functional teams. The design system enables UX and UI designers to align on common visual standards and quickly put together designs for new journeys and pages. The design system started life in Sketch, before being rebuilt in Figma. A more limited design system was also implemented for Adobe Creative Cloud. The design system defined our brand colors, spacing range, typography scale, and UI components.
+
+<a class='btn' href="https://www.giffgaff.design/">giffgaff design system</a>
 
 </div>
-
-<div>
-<figure>
-  <img src="/assets/form-elements.png" alt="Screenshot of radio button components">
-  <figcaption>Radio buttons</figcaption>
-</figure>
-
-<figure>
-<img src="/assets/masthead.png" alt="Screenshot of giffgaff masthead component">
-  <figcaption>Masthead</figcaption>
-</figure>
-
-<figure>
-<img src="/assets/password.png" alt="Screenshot of giffgaff password component">
-  <figcaption>Password creation input</figcaption>
-</figure>
+<img loading='lazy' src='/assets/design-system.png' alt='screenshots of the design system in Sketch and Adobe' />
 </div>
 
-</div>

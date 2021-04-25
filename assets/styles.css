@@ -205,6 +205,14 @@ a:hover {
     }
 }
 
+@media(min-width: 100px) {
+    .grid-600-1 {
+        display: grid;
+        grid-template-columns: 600px 1fr;
+        gap: 80px;
+    }
+}
+
 
 @media (max-width: 650px) {
     .four-images {
@@ -363,4 +371,14 @@ a:hover {
 
 .readable-width {
     max-width: 600px;
+}
+
+.btn {
+    background-color: var(--purple);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 8px;
 }
