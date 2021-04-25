@@ -212,7 +212,15 @@ a:hover {
     }
 }
 
-@media(min-width: 100px) {
+@media(min-width: 800px) {
+    .grid-600-1 {
+        display: grid;
+        grid-template-columns: 500px 1fr;
+        gap: 40px;
+    }
+}
+
+@media(min-width: 1000px) {
     .grid-600-1 {
         display: grid;
         grid-template-columns: 600px 1fr;
