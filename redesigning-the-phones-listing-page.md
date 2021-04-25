@@ -2,7 +2,7 @@
 title: Redesigning the phones range page
 layout: layout.njk
 ---
-<div class="two-col">
+<div class='readable-width'>
 <div>
 The goal of this project was to bring the phone range page into line with the current giffgaff visual standards and to improve the visual hierarchy to make the page more easily scannable while also improving performance. The design updated the page to make use of giffgaff's typography scale and brand colors and used SVG instead of pixelated icons.
 

@@ -361,3 +361,6 @@ a:hover {
     font-weight: 900;
 }
 
+.readable-width {
+    max-width: 600px;
+}
