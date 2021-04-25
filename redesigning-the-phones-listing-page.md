@@ -18,5 +18,7 @@ __Two design options for the phones range page__:
 
 <img loading='lazy' src='/assets/phones.png' alt='a screenshot of the phones range page showing a variety of phone models in a grid' />
 
+<hr/>
+
 <img loading='lazy' src='/assets/phones2.jpg' alt='a screenshot of a differnt iteration of the phones range page design showing a variety of phone models in a grid' />
 </div>

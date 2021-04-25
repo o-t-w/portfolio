@@ -160,6 +160,13 @@ a:hover {
     }
 }
 
+hr {
+height: 3px;
+background-color: black;
+margin-top: 16px;
+margin-bottom: 16px;
+}
+
 @media (min-width: 650px) {
     .intro {
         font-size: 22px;
@@ -171,6 +178,10 @@ a:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 80px;
+    }
+
+    hr {
+        display: none;
     }
 
     .grid-3-4 {
