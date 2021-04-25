@@ -165,6 +165,7 @@ height: 3px;
 background-color: black;
 margin-top: 16px;
 margin-bottom: 16px;
+border: 0;
 }
 
 @media (min-width: 650px) {
