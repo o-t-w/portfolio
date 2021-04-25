@@ -5,7 +5,7 @@ layout: layout.njk
 
 <div style="margin-top: 40px" class="grid-600-1">
 <div>
-At giffgaff product designers and developers are spread over many cross-functional teams. The design system enables UX and UI designers to align on common visual standards and quickly put together designs for new journeys and pages. The design system started life in Sketch, before being rebuilt in Figma. A more limited design system was also implemented for Adobe Creative Cloud. The design system defined our brand colors, spacing range, typography scale, and UI components.
+At giffgaff product designers and developers are spread over many cross-functional teams. The design system enables UX and UI designers to align on common visual standards and quickly put together designs for new journeys and pages. The design system started life in Sketch, before being rebuilt in Figma. A more limited design system was also implemented for Adobe Creative Cloud. The design system defines giffgaff's brand colors, spacing range, typography scale, and UI components.
 
 <a class='btn' href="https://www.giffgaff.design/">giffgaff design system</a>
 

@@ -162,9 +162,10 @@ a:hover {
 
 hr {
 height: 3px;
-background-color: black;
+background-color: var(--off-black);
 margin-top: 16px;
 margin-bottom: 16px;
+border: 0;
 }
 
 @media (min-width: 650px) {
@@ -407,4 +408,23 @@ margin-bottom: 16px;
     margin-top: 8px;
     display: inline-block;
     margin-bottom: 8px;
+}
+
+.case-studies a {
+    border: solid 2px var(--purple);
+    width: fit-content;
+    padding: 16px 24px;
+    text-decoration: none;
+    display: block;
+}
+
+.case-studies div div {
+    display: grid;
+    gap: 24px;
+}
+
+@media(min-width: 600px) {
+.case-studies div div {
+    grid-template-columns: max-content max-content;
+}
 }
