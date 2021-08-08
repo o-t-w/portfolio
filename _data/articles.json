@@ -1,5 +1,25 @@
 [
     {
+        "title": "Using Performant Next-gen Images in CSS with image-set",
+        "url": "https://css-tricks.com/using-performant-next-gen-images-in-css-with-image-set/"
+    }, 
+     {
+        "title": "Internet Explorer Finally Dies",
+        "url": "https://dev.to/otw/internet-explorer-finally-dies-26cn"
+    }, 
+    {
+        "title": "CSS Logical Properties and Values",
+        "url": "https://css-tricks.com/css-logical-properties-and-values/"
+    },
+    {
+        "title": "Styling in the Shadow DOM With CSS Shadow Parts",
+        "url": "https://css-tricks.com/styling-in-the-shadow-dom-with-css-shadow-parts/"
+        },
+    {
+        "title": "The Expanding Gamut of Color on the Web",
+        "url": "https://css-tricks.com/the-expanding-gamut-of-color-on-the-web/"
+    }, 
+    {
         "title": "A Business Case for Dropping Internet Explorer",
         "url": "https://css-tricks.com/a-business-case-for-dropping-internet-explorer/"
     },
