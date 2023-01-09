@@ -10,6 +10,6 @@
   "author": "Ollie Williams",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^1.0.2"
   }
 }
